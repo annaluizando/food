@@ -1,0 +1,50 @@
+@import "src/global";
+
+.container{
+    width: 80vw;
+    height: 46px;
+    padding-top: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 45rem;
+    margin-left: 2.5rem;
+}
+
+.left-container{
+    display: flex;
+    width: 55rem;
+    margin-right: 5rem;
+}
+
+.options{
+    font-family: $font-body;
+    font-size: $normal-text;
+    color: $gray1;
+    font-weight: 400;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
+.foodpng{
+    width: 1067px;
+    height: 925px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+// .selected-option{
+//     font-size: $normal-text;
+//     color: $gray1;
+//     font-weight: 700;
+// }

@@ -1,0 +1,113 @@
+@import "src/global";
+
+.intro-container{
+    display: grid;
+    align-content: center;
+    width: 80vw;
+    height: auto;
+    margin-top: 10rem;
+}
+
+.healthy-container{
+    display: flex;
+
+}
+
+.heading-container{
+    display: flex;
+    align-items: flex-end;
+}
+
+.content-container{
+    width: auto;
+    height: auto;
+}
+
+.buttons-container{
+    display: flex;
+    justify-content: space-between;
+    width: 433px;
+}
+
+.scrolldown-container{
+    display: grid;
+    justify-items: center;
+    margin-top: 12rem;
+}
+
+.heading{
+    font-family: $font-head;
+    font-size: $h1;
+    font-weight: 700;
+    color: $gray1;
+}
+
+.sparkles{
+    margin-top: 1rem;
+}
+
+.special-text{
+    font-family: $font-special;
+    color: $primary-color;
+}
+
+.rectangle{
+    border-radius: 6px;
+    color: $primary-color;
+}
+
+.btext{
+    color: $gray2;
+    width: 424px;
+}
+
+.primary-button{
+    font-family: $font-body;
+    font-size: $medium-text;
+    background-color: $primary-color;
+    width: 200px;
+    height: 58px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.primary-button:hover{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: $medium-text;
+    border: 1px solid $primary-color;
+    border-radius: 6px;
+    color: $primary-color;
+    font-weight: 700;
+    width: 200px;
+    height: 58px;
+}
+
+.secondary-button{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: $medium-text;
+    border: 1px solid $primary-color;
+    border-radius: 6px;
+    color: $primary-color;
+    font-weight: 700;
+    width: 200px;
+    height: 58px;
+    cursor: pointer;
+}
+
+.line{
+    width: 1px;
+    height: 60px;
+    background-color: $gray3;
+    border: none;
+}
+
+.scrolldown-text{
+    font-size: $small-text;
+    font-weight: 400;
+    color: $gray2;
+}
